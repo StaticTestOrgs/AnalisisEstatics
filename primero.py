@@ -3,5 +3,5 @@ def process_data(values):
   for v in values:
     if v > 10:
       total += v
-      unused_var = 1
+      unused_var = 1'hola mundo'
   return total
