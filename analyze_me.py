@@ -12,8 +12,7 @@ def process_data(values: list = []):  # mutable default argument (bug/code smell
 
     # ciclo con complejidad innecesaria (code smell)
     for i in range(0, len(values)):
-        if i == 0:
-            flag = False             # variable asignada pero nunca usada
+        if i == 0:         
         if values[i] > 10:
             total = total + values[i]
         if False:
